@@ -116,30 +116,69 @@
                     <i class="fas fa-code mr-2 text-blue-600"></i>Key Projects
                 </h2>
                 <div class="grid md:grid-cols-2 gap-6">
-                    
-                    <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition">
+
+                    <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition md:col-span-2">
                         <div class="flex justify-between items-start">
-                            <h3 class="font-bold text-lg text-slate-900">Liverpool CS Notes</h3>
-                            <a href="https://note-liv-ac-uk.github.io/CSY3/" target="_blank" class="text-blue-500 hover:text-blue-700"><i class="fas fa-external-link-alt"></i></a>
+                            <h3 class="font-bold text-lg text-slate-900">AWS AI Agent Global Hackathon</h3>
+                            <a href="https://github.com/hongyeqian/AWS-muti-agent" target="_blank" class="text-blue-500 hover:text-blue-700"><i class="fab fa-github"></i></a>
                         </div>
-                        <p class="text-xs text-slate-400 mb-2">01/2025 - 04/2025 | React, Docusaurus</p>
-                        <p class="text-sm text-slate-600">Led development of a documentation website to centralize university lecture notes. Deployed via GitHub Pages.</p>
+                        <p class="text-xs text-slate-400 mb-2">Python, AWS Bedrock, Lambda, LangChain</p>
+                        <ul class="list-disc list-inside text-sm text-slate-600 space-y-1 mt-2">
+                            <li>Designed a <strong>Multi-Agent System</strong> utilizing AWS Bedrock and Lambda for autonomous workflow orchestration.</li>
+                            <li>Implemented collaborative agents to decompose complex tasks, leveraging LLMs for dynamic decision-making and execution.</li>
+                            <li>Featured as a key entry in the Global Hackathon, demonstrating scalable cloud-native AI solutions.</li>
+                        </ul>
                     </div>
 
+                    <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition md:col-span-2">
+                        <div class="flex justify-between items-start">
+                            <h3 class="font-bold text-lg text-slate-900">Enterprise RAG Knowledge System</h3>
+                            <span class="text-slate-400 text-sm"><i class="fas fa-lock"></i></span>
+                        </div>
+                        <p class="text-xs text-slate-400 mb-2">Python, RAG, FAISS, LLM, NLP</p>
+                        <ul class="list-disc list-inside text-sm text-slate-600 space-y-1 mt-2">
+                            <li>Engineered a hierarchical <strong>Retrieval-Augmented Generation (RAG)</strong> pipeline for meeting knowledge management, combining BM25 and dense retrieval (FAISS) for precise context matching.</li>
+                            <li>Developed LLM-based query rewriting modules to normalize temporal ambiguities (e.g., "last meeting") and automated metadata extraction for enhanced indexing.</li>
+                            <li>Implemented structured action item tracking and optimized retrieval performance using <strong>recall@k</strong> metrics and iterative embedding refinement.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition md:col-span-2">
+                        <div class="flex justify-between items-start">
+                            <h3 class="font-bold text-lg text-slate-900">Heat Management System (WAVE)</h3>
+                            <a href="https://github.com/hongyeqian/WAVE" target="_blank" class="text-blue-500 hover:text-blue-700"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p class="text-xs text-slate-400 mb-2">02/2024 - 05/2024 | Java, REST API, JavaScript, HTML/CSS</p>
+                        <ul class="list-disc list-inside text-sm text-slate-600 space-y-1 mt-2">
+                            <li>Developed a full-stack calorie management web application deployed on Tencent Cloud for student use.</li>
+                            <li>Facilitated health tracking for UoL students, achieving active usage over a 2-month pilot period.</li>
+                        </ul>
+                    </div>
+                    
                     <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition">
                         <div class="flex justify-between items-start">
                             <h3 class="font-bold text-lg text-slate-900">Quartets Card Game</h3>
                             <a href="https://github.com/hongyeqian/Quartets" target="_blank" class="text-blue-500 hover:text-blue-700"><i class="fab fa-github"></i></a>
                         </div>
                         <p class="text-xs text-slate-400 mb-2">12/2024 - 05/2025 | Python, Pygame, Z3</p>
-                        <p class="text-sm text-slate-600">Digital card game with GUI. Integrated Z3 SAT solver for rule violation detection.</p>
+                        <ul class="list-disc list-inside text-sm text-slate-600 space-y-1 mt-2">
+                            <li>Developed a digital card game with a full GUI and interactive game logic using Python.</li>
+                            <li>Integrated the <strong>Z3 SAT solver</strong> to detect rule violations and validate game states in real-time.</li>
+                        </ul>
                     </div>
 
-                    <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition md:col-span-2">
-                        <h3 class="font-bold text-lg text-slate-900">Heat Management System (WAVE)</h3>
-                        <p class="text-xs text-slate-400 mb-2">02/2024 - 05/2024 | Java, REST API, HTML/CSS</p>
-                        <p class="text-sm text-slate-600">Calorie management web app deployed on Tencent Cloud. Used by UoL students for 2 months.</p>
+                    <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md transition">
+                        <div class="flex justify-between items-start">
+                            <h3 class="font-bold text-lg text-slate-900">Liverpool CS Notes</h3>
+                            <a href="https://note-liv-ac-uk.github.io/CSY3/" target="_blank" class="text-blue-500 hover:text-blue-700"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <p class="text-xs text-slate-400 mb-2">01/2025 - 04/2025 | React, Docusaurus</p>
+                        <ul class="list-disc list-inside text-sm text-slate-600 space-y-1 mt-2">
+                            <li>Led development of a centralized documentation platform for university lecture notes.</li>
+                            <li>Deployed via GitHub Pages with a responsive React-based frontend.</li>
+                        </ul>
                     </div>
+
                 </div>
             </section>
 
@@ -156,6 +195,8 @@
                     <span class="px-3 py-1 bg-slate-200 text-slate-700 rounded-full text-sm font-medium">MySQL</span>
                     <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">PyTorch</span>
                     <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">React</span>
+                    <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">AWS</span>
+                    <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">RAG</span>
                 </div>
             </section>
 
